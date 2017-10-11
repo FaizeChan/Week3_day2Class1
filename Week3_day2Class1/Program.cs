@@ -45,61 +45,63 @@ namespace Week3_day2Class1
             //Console.WriteLine(leastfavFoods[0]);
 
 
-            //List<string> faveFilms = new List<string>() { "Lion King", "Space Jam", "Stomp The Yard", "The Iron Giant", "Howl's Moving Castle" };
+            List<string> faveFilms = new List<string>() { "Lion King", "Space Jam", "Stomp The Yard", "The Iron Giant", "Howl's Moving Castle" };
 
-            //for(int i = 0; i < faveFilms.Count; i++)
-            //{
-            //    Console.WriteLine(faveFilms[i]);
-
-            //}
-
-            //faveFilms.Insert(0,"The Road to Elderado");
-            //faveFilms.Insert(1, "All Dogs go to Heaven");
-            //faveFilms.Insert(2, "My Neighbor Totoro");
-
-            //Console.WriteLine();
-
-            //foreach(string film in faveFilms)
-            //{
-            //    Console.WriteLine(film);
-            //}
-
-            //faveFilms.Remove("Space Jam");
-            //faveFilms.Remove("All Dogs go to Heaven");
-
-            //Console.WriteLine();
-
-            //foreach (string film in faveFilms)
-            //{
-            //    Console.WriteLine(film);
-            //}
-
-
-            List<string> faveAnimal = new List<string>();
-            faveAnimal.Add("Dire Wolf");
-            faveAnimal.Add("Puppy");
-            faveAnimal.Add("Kowala");
-            faveAnimal.Add("Panda");
-            faveAnimal.Add("Whale");
-
-            for (int i = 0; i < faveAnimal.Count; i++)
+            for (int i = 0; i < faveFilms.Count; i++)
             {
-                Console.WriteLine(faveAnimal[i]);
+                Console.WriteLine(faveFilms[i]);
+
             }
 
-            List<bool> rainyDay = new List<bool>() { true, false, false, true, false };
-            for (int i = 0; i < rainyDay.Count; i++)
-            {
-                Console.WriteLine(rainyDay[i]);
+            faveFilms.Insert(0, "The Road to Elderado");
+            faveFilms.Insert(1, "All Dogs go to Heaven");
+            faveFilms.Insert(2, "My Neighbor Totoro");
 
-                if (rainyDay[i])
-                {
-                    Console.WriteLine("better bring an umbrella");
-                }
-                else
-                {
-                    Console.WriteLine("No rain today, enjoy the sun!");
-                }
+            Console.WriteLine();
+
+            foreach (string film in faveFilms)
+            {
+                Console.WriteLine(film);
+            }
+
+            faveFilms.Remove("Space Jam");
+            faveFilms.Remove("All Dogs go to Heaven");
+
+            Console.WriteLine();
+
+            foreach (string film in faveFilms)
+            {
+                Console.WriteLine(film);
+            }
+
+
+            //List<string> faveAnimal = new List<string>();
+            //faveAnimal.Add("Dire Wolf");
+            //faveAnimal.Add("Puppy");
+            //faveAnimal.Add("Kowala");
+            //faveAnimal.Add("Panda");
+            //faveAnimal.Add("Whale");
+
+            //for (int i = 0; i < faveAnimal.Count; i++)
+            //{
+            //    Console.WriteLine(faveAnimal[i]);
+            //}
+
+            //List<bool> rainyDay = new List<bool>() { true, false, false, true, false };
+            //for (int i = 0; i < rainyDay.Count; i++)
+            //{
+            //    Console.WriteLine(rainyDay[i]);
+
+            //    if (rainyDay[i])
+            //    {
+            //        Console.WriteLine("better bring an umbrella");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("No rain today, enjoy the sun!");
+            //    }
+
+                
             }
         }
     }
